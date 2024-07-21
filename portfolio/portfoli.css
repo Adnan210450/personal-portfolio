@@ -1,0 +1,771 @@
+
+body {
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    flex: 1
+}
+
+.navbar>a {
+
+    padding-right: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+
+
+}
+
+.header-section {
+    display: flex;
+    padding: 20px 60px;
+    background-color: black;
+    z-index: 3;
+    position: relative;
+}
+
+.Search-bar {
+    margin-top: -10px;
+}
+
+.Search-bar input[type=text] {
+    font-size: 25px;
+    background-color: #2d2d2d;
+    font-family: sans-serif;
+    padding: 10px 5px;
+    border-radius: 6px;
+
+
+}
+
+::placeholder {
+    color: white;
+    padding: 10px 30px;
+}
+
+.Search-bar>form>button {
+    padding: 15px 10px;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 6px;
+}
+.Search-bar > form > button > i {
+   margin-top: 5.5px;
+}
+
+
+
+.tp-info {
+    background-color: rgb(245, 212, 170);
+    padding: 10px 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 25%;
+    margin-right: 29%;
+    border: 1px yellow solid;
+    position: absolute;
+    z-index: 2;
+    top: 83px;
+
+
+}
+.tp-info > span{
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 70px;
+    padding-right: 50px;
+    font-weight: 600;
+    
+    
+}
+.tp-info > span >a{
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(95, 95, 199);
+    font-weight: 400;
+}
+
+
+
+#my-vidio {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+#details {
+    display: flex;
+    padding-left: 50px;
+    position: relative;
+    z-index: 4;
+    text-underline-offset: none;
+
+}
+
+.my-info {
+    flex: 1;
+    font-family: sans-serif;
+
+}
+
+.my-info>h2 {
+    font-size: 60px;
+}
+
+.my-info>h3 {
+    font-size: 40px;
+    margin-top: -50px;
+    font-weight: 530;
+}
+
+.my-info>p {
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+
+
+.image {
+    flex: 1;
+    top:  -100px;
+   
+   
+   
+    
+
+}
+
+.btn-download {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px blue solid;
+}
+
+.btn-see {
+
+    color: black;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px blue solid;
+    margin-left: 15px;
+}
+
+.lang {
+    background-color: rgb(245, 245, 245);
+    margin-left: 72px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+    font-family: sans-serif;
+   
+}
+
+.lang>h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.lang>hr {
+    margin-top: -40px;
+    width: 60%;
+    border: 1px black solid;
+}
+
+.lang>p {
+    display: inline-block;
+    padding-left: 150px;
+    font-size: 25px;
+    font-weight: 545;
+    padding-bottom: 4px;
+  
+}
+
+#headline {
+    font-size: 55px;
+    margin-top: 70px;
+    padding-left: 70px;
+    font-family: sans-serif;
+}
+
+.Expert-section {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    margin-left: 72px;
+    margin-top: 55px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+}
+
+
+.Expert-img {
+    flex: 1;
+    border-radius: 20px;
+    padding: 30px 30px;
+    border-image: 200px;
+
+}
+
+.front-info {
+    flex: 1;
+    font-size: 25px;
+    padding-right: 230px;
+    font-family: sans-serif;
+
+}
+
+.front-info>p {
+    margin-top: -30px;
+}
+
+.front-info>h2 {
+    font-size: 45px;
+    margin-top: 25px;
+
+
+}
+
+.soft-skills {
+    padding-left: 90px;
+    display: flex;
+}
+
+.soft-skills-img1 {
+    font-size: 30px;
+    font-weight: 540;
+}
+
+.soft-skills-img1>p {
+    margin-top: -5px;
+    padding-left: 9px;
+}
+
+.soft-skills-img2 {
+    font-size: 30px;
+    font-weight: 540;
+    padding-left: 70px;
+    margin-top: 15px;
+}
+
+.soft-skills-img2>p {
+    margin-top: 1px;
+    padding-left: 43px;
+}
+
+.soft-skills-img3 {
+    font-size: 30px;
+    font-weight: 540;
+    padding-left: 70px;
+    margin-top: 15px;
+}
+
+.soft-skills-img3>p {
+    margin-top: 1px;
+    padding-left: 19px;
+}
+
+.soft-skills-img4 {
+    font-size: 30px;
+    font-weight: 540;
+    padding-left: 70px;
+    margin-top: 15px;
+}
+
+.soft-skills-img4>p {
+    margin-top: 1px;
+    padding-left: 39px;
+}
+
+.soft-skills-img5 {
+    font-size: 30px;
+    font-weight: 540;
+    padding-left: 70px;
+    margin-top: 15px;
+}
+
+.soft-skills-img5>p {
+    margin-top: 1px;
+    padding-left: 39px;
+}
+.soft-skills-img6 {
+    font-size: 30px;
+    font-weight: 540;
+    padding-left: 60px;
+    margin-top: -12px;
+}
+
+.soft-skills-img6>p {
+    margin-top: -16px;
+    padding-left: 39px;
+}
+.tech{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    margin-left: 72px;
+    margin-top: 55px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+
+}
+.time-manage {
+    padding: 10px 100px;
+}
+.time-manage > h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -5px;
+padding-left: 60px;
+}
+.time-manage > h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -30px;
+ 
+}
+.time-manage > img{
+    padding-left: 25px;
+}
+.problem > h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -15px;
+padding-left: 19px;
+}
+.problem > h3{
+    font-size: 30px;
+    font-family:  sans-serif;
+    font-weight: 520;
+    margin-top: -27px;
+    padding-left:29px
+
+    
+}
+.team-lead > h2{
+    font-size: 32px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    margin-top: -25px;
+padding-left: 115px;
+}
+.team-lead > h3{
+    font-size: 35px;
+    font-family:  sans-serif;
+    font-weight: 520;
+    margin-top: -30px;
+    padding-left:85px
+
+    
+}
+.team-lead > img{
+    padding-left: 90px;
+}
+    
+.web > h2{
+    font-size: 32px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+padding-left: 125px;
+}
+.web > h3{
+    font-size: 35px;
+    font-family:  sans-serif;
+    font-weight: 520;
+    margin-top: -33px;
+    padding-left:85px
+
+}
+.web > img{
+    padding-left:90px ;
+    padding-top: 30px;
+}
+.project1 {
+    background-color: rgb(245, 245, 245);
+    margin-left: 72px;
+    margin-top: 55px;
+    height: 350px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+
+}
+.project1 > img{
+    padding: 10px 9px;
+    border-radius: 25px;
+    width: 95%;
+}
+.project1 > h2 {
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+.project1 > p{
+    padding-left: 15px;
+    font-family: sans-serif;
+   font-size: 15px;
+   margin-top:-15px ;
+
+
+}
+.project1 > button{
+    padding: 10px 150px;
+    background-color: blue;
+    color: white;
+    margin: 18px 5px;
+    font-size: 9px;
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+.project2{
+    background-color: rgb(245, 245, 245);
+    margin-left: 480px;
+    margin-top: -350px;
+    height: 350px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+
+}
+.project2 > img{
+    padding: 10px 9px;
+    border-radius: 25px;
+}
+.project2 > h2 {
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+.project2 > p{
+    padding-left: 15px;
+    font-family: sans-serif;
+   font-size: 15px;
+   margin-top:-15px ;
+
+
+}
+.project2 > button{
+    padding: 10px 150px;
+    background-color: blue;
+    color: white;
+    margin: 0px 5px;
+    font-size: 9px;
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+.project3{
+    background-color: rgb(245, 245, 245);
+    margin-left: 890px;
+    margin-top: -350px;
+    height: 350px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+
+}
+.project3 > img{
+    padding: 10px 9px;
+    border-radius: 25px;
+}
+.project3 > h2 {
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+.project3 > p{
+    padding-left: 15px;
+    font-family: sans-serif;
+   font-size: 15px;
+   margin-top:-15px ;
+
+
+}
+.project3 > button{
+    padding: 10px 150px;
+    background-color: blue;
+    color: white;
+    margin: 0px 5px;
+    font-size: 9px;
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+.project4{
+    background-color: rgb(245, 245, 245);
+    margin-left: 1300px;
+    margin-top: -350px;
+    height: 350px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+
+}
+.project4 > img{
+    padding: 10px 9px;
+    border-radius: 25px;
+}
+.project4 > h2 {
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+.project4 > p{
+    padding-left: 15px;
+    font-family: sans-serif;
+   font-size: 15px;
+   margin-top:-15px ;
+
+
+}
+.project4 > button{
+    padding: 10px 150px;
+    background-color: blue;
+    color: white;
+    margin: 0px 5px;
+    font-size: 9px;
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+.project5{
+    background-color: rgb(245, 245, 245);
+    margin-left: 1710px;
+    margin-top: -350px;
+    height: 350px;
+    width: 27%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 20px rgb(58, 57, 57);
+
+}
+.project5 > img{
+    padding: 10px 9px;
+    border-radius: 25px;
+}
+.project5 > h2 {
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+.project5 > p{
+    padding-left: 15px;
+    font-family: sans-serif;
+   font-size: 15px;
+   margin-top:-15px ;
+
+}
+.project5 > button{
+    padding: 10px 150px;
+    background-color: blue;
+    color: white;
+    margin: 0px 5px;
+    font-size: 9px;
+    border: 2px blue solid;
+    border-radius: 5px;
+}
+.btn-slider{
+    padding: 20px 600px;
+   
+}
+#btn1{
+    padding: 15px 15px;
+    border-radius: 100%;
+    border: 1px black solid;
+}
+#btn2{
+    padding: 15px 15px;
+    border-radius: 100%;
+    border: 1px black solid;
+}
+.Education-section{
+    display: flex;
+}
+.design{
+    flex: 1;
+}
+#circle1 {
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    border-radius: 50%;
+   margin-left: 120px;
+   margin-top: -353px;
+  }
+  #square1 {
+    height: 115px;
+    width: 5px;
+    background-color:black;
+    margin-top: -5px;
+    margin-left: 130px;
+  }
+  .education{
+    display: inline-block;
+    padding-left: 160px;
+    margin-top: 0px;
+  
+  }
+  .education > h2{
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+  .education > h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -25px;
+    color: rgb(122, 128, 128);
+  }
+  #circle2 {
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    border-radius: 50%;
+   margin-left: 120px;
+   
+   
+  }
+  #square2 {
+    height: 100px;
+    width: 5px;
+    background-color:black;
+    margin-top: -5px;
+    margin-left: 130px;
+  }
+  .education > h4{
+    font-size: 40px;
+    font-family: sans-serif;
+  }
+  .education > h5{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -45px;
+    color: rgb(122, 128, 128);
+  }
+ 
+  #circle3 {
+    height: 25px;
+    width: 25px;
+    background-color:black;
+    border-radius: 50%;
+   margin-left: 120px;
+   
+   
+  }
+  #square3 {
+    height: 100px;
+    width: 5px;
+    background-color:black;
+    margin-top: -5px;
+    margin-left: 130px;
+  }
+  .education > h6{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-left: -99px;
+    margin-top: 10px;
+  }
+  .education > p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: -90px;
+    color: rgb(122, 128, 128);
+  }
+  .edu-image{
+    flex: 1;
+    padding-left: 100px;
+    border-radius:50px ;
+   
+  }
+  .edu-image > p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgb(122, 128, 128);
+    padding-right: 100px ;
+    padding-left: 5px;
+  }
+  .footer-section{
+    margin-top: 100px;
+    width: 100vw;
+    height: 290px;
+    background-color: rgb(34, 32, 32);
+
+  }
+  .footer-section > h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: rgb(222, 224, 224);
+    padding: 30px 440px;
+  }
+  .footer-icon1> #img1{
+    padding-left: 485px;
+    position: relative;
+    top: -60px;
+  }
+  .footer-icon1> h3{
+    margin-left: 526px;
+    color: rgb(222, 224, 224);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -92.5px;
+   
+  }
+  .footer-icon2> #img2{
+    padding-left: 550px;
+    position: relative;
+    top: -40px;
+  }
+  .footer-icon2> h4{
+    margin-left: 591px;
+    color: rgb(222, 224, 224);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -72px;
+   
+  }
+  .footer-section >button {
+    background-color: rgb(59, 59, 228);
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px rgb(59, 59, 228) solid;
+    margin-left: 565px;
+    padding: 10px 29px;
+   position: relative;
+   top: -20px;
+   
+}
+.end{
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(253, 253, 253);
+    margin-top: -15px;
+   
+}
+.end >p{
+    margin-left: 36%;
+    font-family: sans-serif;
+    font-size: medium;
+   padding:20px 0px ;
+}
