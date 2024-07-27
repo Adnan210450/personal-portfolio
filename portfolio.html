@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="portfoli.css">
+    <link rel="stylesheet" href="portfolio.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
 
@@ -18,49 +19,54 @@
 
 
     <header class="header-section">
+
         <div class="navbar">
-
-            <a >Home </a>
-            <a >About me</a>
-            <a>Projects</a>
-            <a>Skills</a>
-            <a>Contact Me</a>
-
+            <ul>
+                <li>Home </li>
+                <li>About me</li>
+                <li>Projects</li>
+                <li>Skills</li>
+                <li>Contact Me</li>
+            </ul>
         </div>
+
         <div class="Search-bar">
-            <form>
-                <input type="text" placeholder="Search..">
-                <button>
-                    <i class="fa fa-search"></i>
-                </button>
-            </form>
-
+            <span>
+                <i class="fa fa-search"></i>
+                Search..
+            </span>
         </div>
-
 
     </header>
+
+
+    <!-- Main-Section -->
 
     <main>
 
         <!-- VIDIEO -->
 
         <div class="vidio">
-            <video autoplay muted loop id="my-vidio">
-                <source src="./img/portfolio.mp4">
+            <!-- <video autoplay muted loop id="my-vidio"> -->
+            <!-- <source src="./img/portfolio.mp4"> -->
+            <img src="./img/bg.jpg" alt="">
             </video>
         </div>
 
         <section class="tp-section">
+
             <div class="tp-info">
-                <span>Performed At <img src="./img/techpathshala.svg" alt=""><a href="">ViewMore</a></span> 
-                
+                <span>Performed At <img src="./img/techpathshala.svg" alt="" height="25px"><a
+                        href="">ViewMore</a></span>
             </div>
 
         </section>
 
+
         <!-- DETAILS -->
 
         <section id="details">
+
             <div class="my-info">
                 <h2>Full Stack Developer</h2>
                 <h3>Adnan Shaikh</h3>
@@ -69,12 +75,17 @@
                     web-developement.</p>
                 <button class="btn-download">Download Resume</button>
                 <button class="btn-see">See My Work </button>
+            </div>
 
-            </div>
+
             <div class="image">
-                <img src="./img/download (2).png" alt="" height="400px">
+                <img src="./img/Me.png" alt="" height="900px">
             </div>
+
         </section>
+
+
+        <!-- Suitable -->
 
         <div class="lang">
 
@@ -85,33 +96,40 @@
             <p>Full-Stack Developer</p>
 
         </div>
-        <h2 id="headline">Expertise</h2>
+
+
+        <!-- Expeties -->
+
+        <h2 id="headline-expert">Expertise</h2>
+
         <section class="Expert-section">
+
             <div class="Expert-img">
                 <img src="./img/expert.jpg" alt="" height="250px" style="border-radius: 20px;">
             </div>
-            <div class="front-info">
+
+             <div class="front-info">
                 <h2>Frontend Developer</h2>
                 <p>
-
                     A front-end developer develops websites and applications using web technologies (i.e.,
                     HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation input for
                     non-web platform environments (i.e., React Native).
                 </p>
-
             </div>
-
 
         </section>
 
         <!-- TECH SKILLS -->
 
-        <h2 id="headline">Tech Skills</h2>
+        <h2 id="headline-Ts">Tech Skills</h2>
+
         <section class="soft-skills">
+
             <div class="soft-skills-img1">
                 <img src="./img/vscode.png" alt="" height="150px">
                 <p>VS-CODE</p>
             </div>
+
             <div class="soft-skills-img2">
                 <img src="./img/Git-.png" alt="" height="130px">
                 <p>Git</p>
@@ -137,17 +155,14 @@
                 <p>ReactJS</p>
             </div>
 
-
         </section>
 
         <!-- SOFT-SKILLS-SECTION -->
 
-        <h2 id="headline">Soft Skills</h2>
-        <section class="tech-skills">
-
-        </section>
+        <h2 id="headline-sf">Soft Skills</h2>
 
         <section class="tech">
+
             <div class="time-manage">
                 <img src="./img/clock.png" height="150px">
                 <h2>Time</h2>
@@ -178,7 +193,9 @@
         <!-- PROJECT-SECTION -->
 
         <section class="mySlides">
-            <h2 id="headline">Projects</h2>
+
+            <h2 id="headline-pr">Projects</h2>
+
             <div class="project1">
                 <img src="./img/pr1.png" height="150px">
                 <h2>Resume:</h2>
@@ -217,18 +234,23 @@
                 </p>
                 <button>View Project</button>
             </div>
+
         </section>
+
         <div class="btn-slider">
-            <button id="btn1" ><</button>
-                <button id="btn2" onclick="">></button>
+            <button id="btn1"><</button>
+            <button id="btn2" onclick="">></button>
+            
         </div>
 
         <!-- Education -->
 
-        <h2 id="headline">Qualification</h2>
+        <h2 id="headline-quali">Qualification</h2>
 
         <section class="Education-section">
+
             <div class="Education-data">
+
                 <div class="education">
                     <h2>SSC </h2>
                     <h3>National Urdu High School Kalyan,2021</h3>
@@ -236,9 +258,8 @@
                     <h5>M.H.Saboo Siddik Polytechnic,Mumbai</h5>
                     <h6>Training Certificate</h6>
                     <p>Smart-Byte(IT-Solution) Dombivali East</p>
-
-
                 </div>
+
                 <div class="design">
                     <div id="circle1"> </div>
                     <div id="square1"></div>
@@ -247,42 +268,51 @@
                     <div id="circle3"> </div>
                     <div id="square3"></div>
                 </div>
+
             </div>
-            </div>
+
             <div class="edu-image">
                 <img src="./img/q-image.png" alt="" height="400px" width="90%">
                 <p>
                     Lorem ipsum is simply dummy text of printing and typesetting industry . lorem
                     ipsum has been industry standard dummy text rver sincs 1500rs,when unknow printer took gallary!
-
                 </p>
-
-
             </div>
 
-
         </section>
+
     </main>
 
     <footer>
+
         <div class="footer-section">
-            <!-- <span><img src="./img/download (2).png" alt=""></span> -->
+            <img id="footer-img" src="./img/Me.png" alt="" height="200px">
+
             <h2>Adnan Shaikh</h2>
+            <section class="footer-icon">
+
             <div class="footer-icon1">
                 <img id="img1" src="./img/mail.png" alt="" height="35px">
                 <h3>adnanshaikh210450@gmail.com</h3>
             </div>
+
             <div class="footer-icon2">
                 <img id="img2" src="./img/contact.png" alt="" height="35px">
-            <h4>7021213906</h4>
-             </div>
-            <button>Contact Me</button>
+                <h4>7021213906</h4>
+            </div>
+            <button id="footer-btn">Contact Me</button>
         </div>
+   
+
         <div class="end">
             <p>© 2021 Adnan Shaikh.All Right Reserved</p>
         </div>
-   
+
+        
+          
+      
     </footer>
+    
 
 </body>
 
